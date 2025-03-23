@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Plano C</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .login-container {
+            background: #fff;
+            padding: 20px;
+            width: 350px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .login-container button:hover {
+            background: #e65c00;
+        }
+
+        .login-container a {
+            display: block;
+            margin-top: 10px;
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .login-container a:hover {
+            color: #ff6600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login - Plano C</h2>
+        <form action="#" method="POST">
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            <input type="password" name="senha" placeholder="Digite sua senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <a href="#">Esqueci minha senha</a>
+        <a href="#">Criar uma conta</a>
+    </div>
+
+</body>
+</html>
