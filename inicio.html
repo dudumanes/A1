@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hufra</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        /* Ícone de login */
+        .login-icon {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 24px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .login-icon:hover {
+            color: #bbb;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 15px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo Hufra</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Produtos</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Contato</a>
+        </nav>
+        <!-- Ícone de login -->
+        <a href="login.html" class="login-icon"><i class="fa-solid fa-user"></i></a>
+    </header>
+    
+    <div class="container">
+        <h2>Produtos em Destaque</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Produto 1</h3>
+                <p>Descrição do produto 1.</p>
+                <p>Preço: R$ 114,90</p>
+            </div>
+            <div class="product">
+                <h3>Produto 2</h3>
+                <p>Descrição do produto 2.</p>
+                <p>Preço: R$ 114,90</p>
+            </div>
+            <div class="product">
+                <h3>Produto 3</h3>
+                <p>Descrição do produto 3.</p>
+                <p>Preço: R$ 114,90</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Hufra Company. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
